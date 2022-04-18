@@ -1,0 +1,61 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-image: url('images/code4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container{
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.clock-bg{
+  width: 70%;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+  color: #fff;
+  
+}
+.clock-bg h1{
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+
+@media(max-width:840px){
+.clock-bg h1{
+  font-size: 3rem;
+}
+}
+
+@media(max-width:771px){
+  .clock-bg h1{
+    font-size: 2rem;
+    margin: 0 7px;
+  }
+ }
+ @media(max-width:533px){
+  .clock-bg h1{
+    font-size: 1.5rem;
+    margin: 0 5px;
+  }
+ }
+ @media(max-width:404px){
+  .clock-bg h1{
+    font-size: 1.5rem;
+    margin: 0;
+  }
+ }
+ 
